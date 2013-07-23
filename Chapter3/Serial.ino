@@ -7,7 +7,7 @@ void setup()
 	}
 	Serial.begin(9600);//시리얼 통신을 위해 속도를 설정한다.
 }
-
+ 
 void loop() {
     if (Serial.available()) { //컴퓨터에서 보내온 자료가 있다면
 		int index = 0; 
